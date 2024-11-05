@@ -11,16 +11,16 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Dai',
+	name: 'ダイツキ',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: '起きて!',
+	greetingAfternoon: 'おはよう,',
+	greetingEvening: 'こんばんは,',
+	greetingNight: '早く寝てよ!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -29,7 +29,7 @@ const CONFIG = {
 	weatherKey: '586c406c9905db7ce2312037d56dbbfc', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'ja', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '0',
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Googleキャレンダー',
+			icon: 'calendar',
+			link: 'https://calendar.google.com/calendar/u/0/r',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Notion',
+			icon: 'sticky-note',
+			link: 'https://www.notion.so/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Google教室',
+			icon: 'school',
+			link: 'https://classroom.google.com/u/1/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Bandcamp',
+			icon: 'guitar',
+			link: 'https://daitsuki.bandcamp.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Routenote',
+			icon: 'music',
+			link: 'https://www.routenote.com/rn/users/daitsuki',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'アーチストのSpotify',
+			icon: 'headphones',
+			link: 'https://artists.spotify.com/c/artist/7qMwIP0a0OyiYpef3BP3Vv/home',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'library',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'グループのフォルダー',
+					link: 'https://drive.google.com/drive/u/1/folders/1lEl_TbZxXMvj26PjdXu4aAWA5ztnWnGp?usp=drive_link',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '学習素材',
+					link: 'https://drive.google.com/drive/u/1/folders/11gwY_O9hJuZ2ijfHWmRrjMt6jZ5IJa3R?usp=drive_link',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '',
+					link: '',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'graduation-cap',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: '物理',
+					link: 'https://drive.google.com/drive/u/1/folders/17xx4urQEdjAZI4XiMk5pOB4Ev6uTSIvb?usp=drive_link',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: '設計・製造技術',
+					link: 'https://drive.google.com/drive/u/1/folders/1TCOIDKl5uRXEN8OWxDfiFqi3sI0-YUp0?usp=drive_link',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: '数学',
+					link: 'https://drive.google.com/drive/u/1/folders/12_gvc62iWL3H-tzRe0FreliOIDHi-Ims?usp=drive_link',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'フィリピン語',
+					link: 'https://drive.google.com/drive/u/1/folders/1aC57B5UuQ2MhB-xHl0qO5DQGuRS6dcRI?usp=drive_link',
 				},
 			],
 		},
