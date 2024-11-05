@@ -5,7 +5,7 @@
 
 window.onload = displayClock();
 function displayClock() {
-	const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
 
 	var d = new Date();
 	var mm = monthNames[d.getMonth()];
@@ -25,7 +25,7 @@ function displayClock() {
 	document.getElementById('minutes').innerText = min + ampm;
 
 	document.getElementById('month').innerText = mm;
-	document.getElementById('day').innerText = dd;
+	document.getElementById('day').innerText = dd + '日';
 
 	setTimeout(displayClock, 1000);
 }
