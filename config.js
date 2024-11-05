@@ -72,20 +72,20 @@ const CONFIG = {
 		{
 			id: '4',
 			name: 'Bandcamp',
-			icon: 'guitar',
+			icon: 'headphones',
 			link: 'https://daitsuki.bandcamp.com/',
 		},
 		{
 			id: '5',
-			name: 'Routenote',
-			icon: 'music',
-			link: 'https://www.routenote.com/rn/users/daitsuki',
+			name: 'Messenger',
+			icon: 'message-circle',
+			link: 'https://www.messenger.com/',
 		},
 		{
 			id: '6',
-			name: 'アーチストのSpotify',
-			icon: 'headphones',
-			link: 'https://artists.spotify.com/c/artist/7qMwIP0a0OyiYpef3BP3Vv/home',
+			name: 'Facebook',
+			icon: 'facebook',
+			link: 'https://www.facebook.com/',
 		},
 	],
 
