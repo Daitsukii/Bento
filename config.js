@@ -53,9 +53,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Googleキャレンダー',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/u/0/r',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '2',
