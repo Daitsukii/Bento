@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'https://api.open-meteo.com/v1/forecast?latitude=7.0731&longitude=125.6128&hourly=temperature_2m&timezone=auto', // Write here your API Key
+	weatherKey: '586c406c9905db7ce2312037d56dbbfc', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '7.0731',
+	defaultLongitude: '125.6128',
 
 	// Autochange
 	autoChangeTheme: true,
